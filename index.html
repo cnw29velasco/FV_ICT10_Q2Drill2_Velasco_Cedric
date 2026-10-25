@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+<title>Drill 2</title>
+</head>
+
+<style>
+
+    body
+    {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+</style>
+
+<body>
+    
+    <div class="container">
+
+        <center>
+
+            <h1>ICT Club</h1>
+            <p>Adding of new memebr</p>
+
+            <input type="text" id="first" placeholder="Type your first name here">
+            <br><br>
+
+            <input type="text" id="last" placeholder="Type your last name here">
+            <br><br>
+
+            <button id="add_name" py-click="add_name">Enter new member</button>
+
+            <br><br>
+
+            <div id="output1">
+                Add new member
+            </div>
+
+            <script type="py" src="main.py"></script>
+
+        </center>
+
+    </div>
+
+</body>
+</html>
